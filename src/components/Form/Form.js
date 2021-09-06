@@ -4,7 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import "./index.css";
 import "../../fonts/stylesheet.css";
 import * as yup from "yup";
-import { MySelect } from "../Select/MySelect";
+import { MySelect } from "../MySelect/MySelect";
 
 const phoneMask = /^\+375(17|29|33|44)[0-9]{7}$/;
 const stringAndNumberReg = /^[а-яА-ЯёЁa-zA-Z0-9 ]+$/;
@@ -50,9 +50,7 @@ export const Form = () => {
     });
     console.log(data);
   };
-  const buttonStyle = {
-    alignSelf: "center"
-  }
+
   return (
     <div className="form-container">
       <form id="form" className="form" onSubmit={handleSubmit(submitForm)}>
