@@ -1,0 +1,92 @@
+.form-container {
+    padding: 20px 76px 37px;
+    background: #00A1DF;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.form__inputs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 105px;
+}
+
+.input-container {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container:last-child {
+    margin-right: 25px;
+}
+
+.input-label {
+    font-family: Circe;
+    font-size: 18px;
+    line-height: 28px;
+    color: #10181F;
+}
+
+.input {
+    background: #FFFFFF;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    min-width: 100px;
+    min-height: 48px;
+    font-family: Circe;
+    font-size: 18px;
+}
+
+.first-input {
+    width: 236px;
+}
+
+.second-input {
+    width: 200px;
+}
+
+.third-input {
+    width: 176px;
+}
+
+.fourth-input {
+    width: 100px;
+}
+
+.fifth-input {
+    width: 176px;
+}
+
+.submit-button {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    padding: 10px 32px;
+    background-color: #EF7D24;
+    margin: 0;
+}
+
+.helper-text {
+    color: red;
+    margin-top: 10px;
+    word-wrap: inherit;
+    max-width: 176px;
+}
+
+.helper-text.helper-answer {
+    max-width: 100px;
+}
+
+.addl-class {
+    background-color: red
+}
